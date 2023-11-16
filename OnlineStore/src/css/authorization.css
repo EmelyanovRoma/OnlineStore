@@ -1,0 +1,66 @@
+/* Authorization page */
+.authorization {
+    margin-top: 210px;
+    text-align: center;
+}
+
+.authorization__container {
+    width: 370px;
+    align-items: center;
+    background-color: var(--block-background-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--shadow-color);
+}
+
+.authorization__title {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 38px !important;
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+
+.authorization-user {
+    border-bottom: 2px solid;
+    margin: 0px 15px;
+    padding-bottom: 8px;
+}
+
+.user__email {
+    margin-bottom: 20px;
+}
+
+.email {
+    width: 100%;
+}
+
+.password {
+    width: 100%;
+}
+
+.confirm__button {
+    width: 350px;
+    padding: 12px 0px;
+    margin: 50px auto 10px;
+}
+
+.confirm-button__text {
+    width: 100%;
+}
+
+.form-registration {
+    margin-bottom: 2px;
+}
+
+.form__link {
+    font-size: 14px;
+    color: var(--main-text-color);
+}
+
+.form__link:hover {
+    text-decoration: underline;
+}
+
+.authorization-text-center {
+    padding-bottom: 8px;
+}

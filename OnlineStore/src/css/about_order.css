@@ -1,0 +1,69 @@
+/* About order page */
+.about__order {
+    margin-top: 100px;
+}
+
+.about_order__title {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.about_order__container {}
+
+.about_order__content {
+    background-color: var(--block-background-color);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.about_order__colums {
+    display: flex;
+}
+
+.about_order__column {}
+
+.about_order__column_1 {
+    flex: 0 1 75%;
+}
+
+.about_order__column_2 {
+    flex: 0 1 25%;
+}
+
+.about_order__number {
+    margin-bottom: 5px;
+}
+
+.about_order__store {}
+
+.about_order__list {}
+
+.about_order__data {}
+
+.about_order__customer-information {}
+
+.about_order-list__text {}
+
+.about_order-list__items {}
+
+.about_order-list__item {}
+
+.about_order__item {
+    margin-bottom: 5px;
+}
+
+.about_order__item:last-child {
+    margin-bottom: 0px;
+}
+
+.about_order__store {}
+
+.about_order-text__store {}
+
+.about_order__data {}
+
+.about_order-text__data {}
+
+.about_order__customer-information {}
+
+.about_order-text__customer-information {}

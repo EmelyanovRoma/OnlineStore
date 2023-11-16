@@ -1,0 +1,77 @@
+@import "colors.css";
+@import "nullstyle.css";
+@import "header.css";
+@import "authorization.css";
+@import "profile.css";
+@import "cart.css";
+@import "product.css";
+@import "about_order.css";
+
+/* Repainting input field for property autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: inset 20px 20px 0px 20px rgb(226, 226, 223)
+}
+
+/* -------------------------------------------- */
+
+
+/* Main page settings */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+[class*="__container"] {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+[class*="__title"] {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* -------------------------------------------- */
+
+
+/* Buttons */
+
+.button {
+    color: var(--main-button-text-color);
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.button_blue {
+    background-color: var(--main-button-color);
+}
+
+.button_blue:hover {
+    background-color: var(--main-button-hover-color);
+}
+
+.button_blue:active {
+    background-color: var(--main-button-active-color);
+    position: relative;
+    top: 1px;
+}
+
+/* -------------------------------------------- */
