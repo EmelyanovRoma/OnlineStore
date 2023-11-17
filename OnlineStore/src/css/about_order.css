@@ -8,8 +8,6 @@
     margin-bottom: 10px;
 }
 
-.about_order__container {}
-
 .about_order__content {
     background-color: var(--block-background-color);
     border-radius: 15px;
@@ -28,20 +26,14 @@
 }
 
 
-.about_order__column {}
-
 .about_order__column_1 {
     flex: 0 1 80%;
 }
-
-.about_order__list {}
 
 .about_order-list__text {
     display: inline-block;
     margin-bottom: 5px;
 }
-
-.about_order-list__items {}
 
 .about_order-list__item {
     word-break: break-all;
@@ -79,8 +71,6 @@
 .about_order__item:last-child {
     margin-bottom: 0px;
 }
-
-.about_order-item__text {}
 
 .about_order-item-information__text {
     display: block;
