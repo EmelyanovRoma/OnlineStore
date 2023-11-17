@@ -2,6 +2,7 @@
     /* Main colors on page */
     --main-background-color: rgb(245, 245, 220);
     --main-text-color: rgb(80, 80, 80);
+    --main-text-hover-color: rgb(160, 160, 160);
     --main-button-color: rgba(20, 70, 255, 0.9);
     --main-button-hover-color: rgba(0, 0, 255, 0.75);
     --main-button-active-color: rgb(80, 80, 80);
