@@ -1,18 +1,68 @@
 /* Orders page */
-.orders {}
+.orders {
+    margin-top: 100px;
+}
 
 .orders__container {}
 
-.orders__title {}
+.orders__title {
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
 
-.orders__content {}
+.order {
+    border-radius: 15px;
+    transition: 0.25s;
+    margin-bottom: 25px;
+}
 
-.orders__header {}
+.order:hover {
+    box-shadow: 0px 0px 3px var(--shadow-color);
+    transform: scale(101%);
+}
 
-.orders-text__data {}
+.order__content {
+    background-color: var(--block-background-color);
+    border-radius: 15px;
+}
 
-.orders__store-name {}
+.order__header {
+    background-color: var(--block-background-hover-color);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 
-.orders-text__number {}
+.order-header__text {
+    padding: 8px 10px;
+}
 
-.orders__list-order {}
+.order-text__number {}
+
+.order__data {}
+
+.order__main {
+    padding: 5px 10px 8px;
+}
+
+.order__store-name {
+    margin-bottom: 5px;
+}
+
+.order-list__items {}
+
+.order-list__item {}
+
+.order-list__quantity {
+    display: block;
+    padding-left: 5px;
+}
+
+.order-list__product {}
+
+.link {
+    color: var(--maint-text-color);
+}
+
+.link:hover {
+    color: var(--main-text-hover-color);
+}
