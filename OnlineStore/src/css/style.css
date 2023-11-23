@@ -7,6 +7,7 @@
 @import "product.css";
 @import "about_order.css";
 @import "orders.css";
+@import "catalog.css";
 
 /* Repainting input field for property autofill */
 input:-webkit-autofill,
@@ -73,6 +74,19 @@ body {
     background-color: var(--main-button-active-color);
     position: relative;
     top: 1px;
+}
+
+/* -------------------------------------------- */
+
+/* Links */
+
+.link {
+    color: var(--maint-text-color);
+    transition: 0.15s;
+}
+
+.link:hover {
+    color: var(--main-text-hover-color);
 }
 
 /* -------------------------------------------- */

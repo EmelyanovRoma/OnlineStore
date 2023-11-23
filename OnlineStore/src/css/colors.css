@@ -11,6 +11,6 @@
     /* Other colors on page */
     --block-background-color: rgba(0, 0, 255, 0.08);
     --block-background-hover-color: rgba(0, 0, 255, 0.05);
-    --border-color: rgb(80, 80, 80);
+    --border-color: rgba(160, 160, 160, 1);
     --shadow-color: rgba(160, 160, 160, 1);
 }
