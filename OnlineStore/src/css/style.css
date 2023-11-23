@@ -77,3 +77,16 @@ body {
 }
 
 /* -------------------------------------------- */
+
+/* Links */
+
+.link {
+    color: var(--maint-text-color);
+    transition: 0.15s;
+}
+
+.link:hover {
+    color: var(--main-text-hover-color);
+}
+
+/* -------------------------------------------- */
