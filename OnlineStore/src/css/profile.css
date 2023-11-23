@@ -10,6 +10,7 @@
 
 .profile__content {
     display: flex;
+    align-items: flex-start;
 }
 
 .profile__photo {
