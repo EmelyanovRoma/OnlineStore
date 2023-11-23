@@ -3,13 +3,13 @@
     --main-background-color: rgb(245, 245, 220);
     --main-text-color: rgb(80, 80, 80);
     --main-text-hover-color: rgb(160, 160, 160);
-    --main-button-color: rgba(20, 70, 255, 0.9);
-    --main-button-hover-color: rgba(0, 0, 255, 0.75);
+    --main-button-color: rgb(105, 189, 32);
+    --main-button-hover-color: rgb(105, 170, 32);
     --main-button-active-color: rgb(80, 80, 80);
     --main-button-text-color: rgb(255, 255, 255);
 
     /* Other colors on page */
-    --block-background-color: rgba(0, 0, 255, 0.08);
+    --block-background-color: rgba(0, 0, 255, 0.1);
     --block-background-hover-color: rgba(0, 0, 255, 0.05);
     --border-color: rgba(160, 160, 160, 1);
     --shadow-color: rgba(160, 160, 160, 1);

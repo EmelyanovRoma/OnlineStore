@@ -14,7 +14,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    -webkit-box-shadow: inset 20px 20px 0px 20px rgb(226, 226, 223)
+    -webkit-box-shadow: inset 20px 20px 0px 20px rgb(220, 220, 224)
 }
 
 /* -------------------------------------------- */
@@ -62,15 +62,15 @@ body {
     transition: 0.25s;
 }
 
-.button_blue {
+.button_green {
     background-color: var(--main-button-color);
 }
 
-.button_blue:hover {
+.button_green:hover {
     background-color: var(--main-button-hover-color);
 }
 
-.button_blue:active {
+.button_green:active {
     background-color: var(--main-button-active-color);
     position: relative;
     top: 1px;
