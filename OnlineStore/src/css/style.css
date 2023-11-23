@@ -1,13 +1,6 @@
 @import "colors.css";
 @import "nullstyle.css";
 @import "header.css";
-@import "authorization.css";
-@import "profile.css";
-@import "cart.css";
-@import "product.css";
-@import "about_order.css";
-@import "orders.css";
-@import "catalog.css";
 
 /* Repainting input field for property autofill */
 input:-webkit-autofill,
