@@ -46,11 +46,3 @@
     display: block;
     padding-left: 5px;
 }
-
-.link {
-    color: var(--maint-text-color);
-}
-
-.link:hover {
-    color: var(--main-text-hover-color);
-}
