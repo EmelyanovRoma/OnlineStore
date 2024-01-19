@@ -25,7 +25,7 @@
             <div class="login">
                 <div class="login__container">
                     <form action="../php/login.php" method="post">
-                        <h1 class="login__title">Вход</h1>
+                        <h1 class="login__title">Регистрация</h1>
                         <div class="login-user user__email">
                             <input class="email" autofocus="autofocus" required="required" aria-required="true"
                                 type="email" name="email" placeholder="E-mail">
@@ -33,6 +33,10 @@
                         <div class="login-user user__password">
                             <input class="password" required="required" aria-required="true" type="password"
                                 name="password" placeholder="Пароль">
+                        </div>
+                        <div class="login-user user__password">
+                            <input class="repeat_password" required="required" aria-required="true" type="password"
+                                name="repeat_password" placeholder="Повторите пароль">
                         </div>
                         <div class="confirm__button button_green button">
                             <input class="confirm-button__text" type="submit" value="Войти">
