@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="../../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/registration.css">
     <title>Регистрация | Online Store</title>
 </head>
 
@@ -22,24 +23,24 @@
             </div>
         </header>
         <main class="main">
-            <div class="login">
-                <div class="login__container">
+            <div class="login registration">
+                <div class="login__container registration__container">
                     <form action="../php/registration.php" method="post">
-                        <h1 class="login__title">Регистрация</h1>
-                        <div class="login-user user__email">
+                        <h1 class="login__title registration__title">Регистрация</h1>
+                        <div class="login-user registration-user user__email">
                             <input class="email" autofocus="autofocus" required="required" aria-required="true"
                                 type="email" name="email" placeholder="E-mail">
                         </div>
-                        <div class="login-user user__password">
+                        <div class="login-user registration-user user__password">
                             <input class="password" required="required" aria-required="true" type="password"
                                 name="password" placeholder="Пароль">
                         </div>
-                        <div class="login-user user__password">
+                        <div class="login-user registration-user user__password">
                             <input class="repeat_password" required="required" aria-required="true" type="password"
                                 name="repeat_password" placeholder="Повторите пароль">
                         </div>
                         <div class="confirm__button button_green button">
-                            <input class="confirm-button__text" type="submit" value="Войти">
+                            <input class="confirm-button__text" type="submit" value="Зарегистрироваться">
                         </div>
                     </form>
                 </div>
