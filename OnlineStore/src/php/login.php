@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo "Добро пожаловать, " . $row['email'] . "!";
+                echo "Добро пожаловать!";
             }
         } else {
             echo "Пользователя не существует!";
