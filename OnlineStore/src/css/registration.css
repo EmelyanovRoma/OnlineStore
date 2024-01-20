@@ -1,13 +1,7 @@
 /* Registration page */
-.registration {}
-
-.registration__container {}
-
 .registration__title {
     font-size: 30px !important;
 }
-
-.registration-user {}
 
 .repeat_password {
     width: 100%;

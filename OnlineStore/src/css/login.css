@@ -27,7 +27,9 @@
     padding-bottom: 8px;
 }
 
-.user__email {
+.user__email,
+.user__password,
+.user__repeat-password {
     margin-bottom: 20px;
 }
 
